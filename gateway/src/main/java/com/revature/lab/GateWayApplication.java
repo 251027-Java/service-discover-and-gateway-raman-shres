@@ -6,12 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class GatewayApp {
+public class GateWayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayApp.class, args);
+        SpringApplication.run(GateWayApplication.class, args);
     }
-
-    // Note: Routes are usually defined in application.yml,
-    // but can be defined via @Bean RouteLocatorBuilder if preferred.
 }
+
